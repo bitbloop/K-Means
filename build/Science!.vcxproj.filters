@@ -4,6 +4,9 @@
     <Filter Include="util">
       <UniqueIdentifier>{9e094654-b804-4c59-8b1c-12a7299bfc1d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="k-means">
+      <UniqueIdentifier>{469fcbce-2d6e-4084-aee5-f3fcd1011c1e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\util\loader_obj_nogl.cpp">
@@ -11,6 +14,10 @@
     </ClCompile>
     <ClCompile Include="..\src\util\random.cpp">
       <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\k-means\test_k-means.cpp">
+      <Filter>k-means</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -25,6 +32,12 @@
     </ClInclude>
     <ClInclude Include="..\src\util\random.h">
       <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\k-means\k-means.h">
+      <Filter>k-means</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\k-means\test_k-means.h">
+      <Filter>k-means</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -19,12 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\src\k-means\k-means.h" />
+    <ClInclude Include="..\src\k-means\test_k-means.h" />
     <ClInclude Include="..\src\util\loader_obj_nogl.h" />
     <ClInclude Include="..\src\util\math.h" />
     <ClInclude Include="..\src\util\random.h" />
     <ClInclude Include="..\src\util\timer.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\k-means\test_k-means.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
     <ClCompile Include="..\src\util\loader_obj_nogl.cpp" />
     <ClCompile Include="..\src\util\random.cpp" />
   </ItemGroup>
