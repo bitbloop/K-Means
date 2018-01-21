@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\k-means\test_k-means_visual.cpp" />
     <ClCompile Include="..\src\renderer\loader_obj.cpp" />
     <ClCompile Include="..\src\renderer\lodepng.cpp" />
     <ClCompile Include="..\src\renderer\pointcloud.cpp" />
@@ -29,8 +30,12 @@
     <ClCompile Include="..\src\renderer\texture.cpp" />
     <ClCompile Include="..\src\renderer\window.cpp" />
     <ClCompile Include="..\src\util\loader_obj_nogl.cpp" />
+    <ClCompile Include="..\src\util\random.cpp" />
+    <ClCompile Include="..\src\visualmain.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\src\k-means\k-means.h" />
+    <ClInclude Include="..\src\k-means\test_k-means_visual.h" />
     <ClInclude Include="..\src\renderer\loader_obj.h" />
     <ClInclude Include="..\src\renderer\lodepng.h" />
     <ClInclude Include="..\src\renderer\pointcloud.h" />
@@ -42,7 +47,11 @@
     <ClInclude Include="..\src\renderer\window.h" />
     <ClInclude Include="..\src\util\loader_obj_nogl.h" />
     <ClInclude Include="..\src\util\math.h" />
+    <ClInclude Include="..\src\util\random.h" />
     <ClInclude Include="..\src\util\timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\k-means\basic.glsl" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

@@ -7,6 +7,9 @@
     <Filter Include="util">
       <UniqueIdentifier>{81fcaf16-2978-4f42-a976-7fa24d0b701e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="kmeans">
+      <UniqueIdentifier>{c23daed5-00f7-4bb8-a3ea-b7747a601fa2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\renderer\lodepng.cpp">
@@ -38,6 +41,13 @@
     </ClCompile>
     <ClCompile Include="..\src\renderer\loader_obj.cpp">
       <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\visualmain.cpp" />
+    <ClCompile Include="..\src\util\random.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\k-means\test_k-means_visual.cpp">
+      <Filter>kmeans</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -77,5 +87,19 @@
     <ClInclude Include="..\src\renderer\window.h">
       <Filter>renderer</Filter>
     </ClInclude>
+    <ClInclude Include="..\src\k-means\k-means.h">
+      <Filter>kmeans</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\random.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\k-means\test_k-means_visual.h">
+      <Filter>kmeans</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\k-means\basic.glsl">
+      <Filter>kmeans</Filter>
+    </None>
   </ItemGroup>
 </Project>
